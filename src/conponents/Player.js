@@ -84,6 +84,8 @@ const Player = ({
     background: `linear-gradient(to right,${currentSong.color[0]},${currentSong.color[1]})`,
   };
   // console.log(songColor)
+    const link = currentSong.audio;
+
   return (
     <div className="player">
       <div className="time-control">

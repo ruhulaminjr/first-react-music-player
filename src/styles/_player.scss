@@ -84,3 +84,17 @@ input[type="range"]::-webkit-slider-thumb {
     color: #ff7171;
   }
 }
+.download-btn{
+  background:red ;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.download-btn a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}

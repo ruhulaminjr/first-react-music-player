@@ -120,6 +120,10 @@ const Player = ({
           onClick={() => skipSongHandler("skipForward")}
         />
       </div>
+     <div className="download">
+        <button className="download-btn">
+          <a href={link}>Download Now</a>
+        </
     </div>
   );
 };

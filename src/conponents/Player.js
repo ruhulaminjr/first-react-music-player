@@ -124,6 +124,7 @@ const Player = ({
         <button className="download-btn">
           <a href={link}>Download Now</a>
         </button>
+  </div>
     </div>
   );
 };

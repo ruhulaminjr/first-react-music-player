@@ -1,0 +1,66 @@
+.library {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100%;
+  overflow: scroll;
+  background: #eee;
+  transform: translateX(-101%);
+  transition: all .5s ease-in-out;
+//   text-align: center;
+  box-shadow: 2px 2px 50px rgb(204,204,204);
+  h2{
+      padding: 2rem;
+  }
+}
+
+.librarysong-container {
+  img {
+    width: 30%;
+  }
+  padding: 1rem 2rem 1rem 2rem;
+  cursor: pointer;
+  &:hover{
+      background-color: rgb(182, 184, 202);
+  }
+  display: flex;
+  align-items: center;
+}
+.sond-description {
+  padding-left: 1rem;
+  h3{
+      font-size: 1rem;
+  }
+  h4{
+      font-size: 0.7rem;
+  }
+}
+
+*{
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5);
+
+}
+*::-webkit-scrollbar{
+    width: 5px;
+}
+*::-webkit-scrollbar-track{
+    background: transparent;
+}
+*::-webkit-slider-thumb{
+    border-radius: 20px;
+    background-color: rgba(155, 155, 155, 0.5);
+}
+.selected{
+  background-color: rgb(213, 166, 219);
+}
+.library-active{
+  transform: translateX(0%);
+}
+
+@media (max-width:765px){
+    .library{
+      width: 100%;
+    }
+}

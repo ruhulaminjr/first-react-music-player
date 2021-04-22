@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+h3,h4{
+    font-family: 700;
+    color: rgb(100, 100, 100)
+}
+
+@import "./player.scss";
+@import "./song.scss";
+@import "./library";
+@import "./nav"

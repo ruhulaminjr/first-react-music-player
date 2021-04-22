@@ -123,7 +123,7 @@ const Player = ({
      <div className="download">
         <button className="download-btn">
           <a href={link}>Download Now</a>
-        </div>
+        </button>
     </div>
   );
 };
